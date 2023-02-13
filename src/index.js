@@ -3,20 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Nav from './Nav';
+
 import Banner from './Banner';
 import Card from './Card';
 import Food from "./Food.jsx"
+import Nav from './Nav';
+import Ship from './Ship';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Nav></Nav>
+  <Nav></Nav>
     <App />
     <Banner></Banner>
        <Card></Card>
  <Food></Food>
+ <Ship></Ship>
   </React.StrictMode>
 );
 

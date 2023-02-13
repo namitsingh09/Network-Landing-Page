@@ -5,15 +5,15 @@ body {
 
 .App {
 
-padding: 10px;
+padding: 0px;
 }
 
 .container {
   background-image: url("https://images.unsplash.com/photo-1516044734145-07ca8eef8731?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80");
   background-size: cover;
-
+width: 100%;
   background-position: center;
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
